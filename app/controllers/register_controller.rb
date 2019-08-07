@@ -14,7 +14,7 @@ class RegisterController<ApplicationController
 
             use=User.new(username:params[:register][:username],password:params[:register][:password])
             use.save
-            flash[:sucess] = "Regidtration Sucessfull please make a login"
+            flash[:sucess] = "Registration Sucessfull please make a login"
             redirect_to login_path
 
         end

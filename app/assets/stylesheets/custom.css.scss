@@ -4,13 +4,27 @@
   height: 450px;
 }
 
+.inputsize{
+  height: 20px;
+  width: 500px;
+  padding-bottom: 30px;
+  
+  
+}
+
+
 #messages {
   height: 15em;
   overflow: auto;
 }
-
+.txtcenter{
+  text-align: center;
+  font-size: 50px;
+  color: orangered;
+}
 .input {
   button {
     display:none;
   }
+
 }
